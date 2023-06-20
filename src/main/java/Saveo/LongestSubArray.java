@@ -13,16 +13,14 @@ package Saveo;
 //
 //15
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 
 public class LongestSubArray {
     public static void main(String[] args) {
 //        int []arr = {15, -2, 2, -8, 1, 7, 10, 23};
-        int []arr = {5,4,2,-5,-5,7};
+        int []arr = {2,5,4,2,-5,-6,2};
         int sum = 0;
         int Max = 0;
         Map<Integer, Integer> integerListMap = new HashMap<>();
