@@ -12,7 +12,6 @@ public class TwoSum2 {
         TwoSum2 twoSum2 = new TwoSum2();
         System.out.println("The indices in the array which adds upto the target " + target + " are " + Arrays.toString(twoSum2.twoSum(arrayOfNumbers, target)));
         System.out.println("The indices in the array which adds upto the target " + target2 + " are " + Arrays.toString(twoSum2.twoSum(arrayOfNumbers2, target2)));
-
     }
 
     public int[] twoSum(int[] numbers, int target) {
